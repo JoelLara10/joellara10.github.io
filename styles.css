@@ -1,0 +1,82 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .perfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    color: #4CAF50;
+}
+
+main p, main ul {
+    font-size: 1rem;
+}
+
+main ul {
+    list-style: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
